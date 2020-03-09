@@ -1,12 +1,8 @@
+let name = 'heimer';
+let age = 40;
 
-{
-    var globalVar = "Global Var";
-}
+obj = { name: name, age: age };
 
-{
-    let globalLet = "Global Let";
-}
+obj2 = { name, age };
 
-console.log(globalVar);
-console.log(globalLet);
-
+console.log(obj2);
